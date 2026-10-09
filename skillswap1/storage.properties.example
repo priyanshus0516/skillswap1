@@ -1,0 +1,9 @@
+# SkillSwap Storage Configuration
+# Choose storage implementation: 'inmemory' (default demo) or 'jdbc' (or 'mysql')
+storage.type=jdbc
+
+# JDBC / MySQL settings (used when storage.type=jdbc or storage.type=mysql)
+db.url=jdbc:mysql://localhost:3306/skillswap_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.user=root
+db.password=your_password_here
+db.driver=com.mysql.cj.jdbc.Driver
